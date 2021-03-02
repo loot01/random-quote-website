@@ -12,9 +12,16 @@ const Footer = () => {
   return (
     <StyledFooter>
       Created by{" "}
-      <span style={{ fontWeight: 700, textDecoration: "underline" }}>
+      <a
+        style={{
+          fontWeight: 700,
+          textDecoration: "underline",
+          color: "#828282",
+        }}
+        href="https://github.com/loot01/random-quote-website"
+      >
         Suleif
-      </span>{" "}
+      </a>
       - devChallenges.io
     </StyledFooter>
   );
