@@ -16,7 +16,7 @@ const AuthorQuotes = () => {
       .then((res) => {
         setQuotes(res.data.data);
       });
-  }, []);
+  }, [author]);
   return (
     <div>
       <h1
